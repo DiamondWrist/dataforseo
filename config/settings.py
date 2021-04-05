@@ -145,8 +145,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 # SERP
 
-API_LOGIN = os.getenv('API_LOGIN', 'dimkahristichenko@gmail.com')
-API_PASSWORD = os.getenv('API_PASSWORD', '4cf881789dfa1901')
+API_LOGIN = os.getenv('API_LOGIN')
+API_PASSWORD = os.getenv('API_PASSWORD')
 CREATE_TASK_URL = os.getenv('CREATE_TASK_URL', '/v3/serp/{search_system}/organic/task_post')
 RESULT_TASK_URL = os.getenv('RESULT_TASK_URL', '/v3/serp/{search_system}/organic/tasks_ready')
 DETAIL_URL = os.getenv('DETAIL_URL', '/v3/serp/{search_system}/organic/task_get/regular/{id}')
